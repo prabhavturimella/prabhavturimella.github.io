@@ -1,0 +1,53 @@
+/* stylesheet.css */
+
+body {
+    font-family: 'Times New Roman', serif; /* Serif font as a fallback */
+    background-color: #f4f4f4; /* Light grey background for the whole page */
+    margin: 20px;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Georgia', serif; /* Changes the font of h1 to a serif font other than the browser default */
+}
+
+nav {
+    background-color: #333; /* Dark background for the navigation */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0; /* Removes default margin */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white; /* White background for the content */
+    padding: 20px;
+    border-radius: 5px; /* Optional: Adds rounded corners to the main content */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px; /* Adds space above the footer */
+}
