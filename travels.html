@@ -2,27 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Prabhav's Travels</title>
+    <title>Travels</title>
     <style>
-        header h1 {
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
             text-align: center;
+            color: navy;
+        }
+        h2 {
+            color: darkgreen;
+        }
+        p {
+            font-size: 16px;
+        }
+        .bold-text {
+            font-weight: bold;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adjust the space between images */
+        }
+        .images img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+        dl {
+            width: 50%;
+            margin: 0 auto;
+        }
+        dt {
+            font-weight: bold;
+        }
+        dd {
+            margin: 0 0 20px 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>My Travels</h1>
+        <h1>Prabhav's Travel Adventures</h1>
     </header>
     <main>
-        <p>Hello everyone and welcome to my website! My name is Prabhav and I am excited to show you a little about myself. Through my site you can learn a great deal about me. This includes some general background details, stories of my travels around the world, my favorite entertainment/media, and my love for sports. Hope you enjoy!</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="travels.html">Travels</a></li>
-                <li><a href="media.html">Favorite Media</a></li>
-                <li><a href="sports.html">Sports</a></li>
-            </ul>
-        </nav>
+        <section>
+            <h2>Three of My Recent Favorite World Destinations</h2>
+            <p class="bold-text highlight">Traveling has always been a passion of mine. Below are some of the most memorable places I have visited.</p>
+        </section>
+        <section>
+            <dl>
+                <dt>Agra, India</dt>
+                <dd>- Yes, Agra home to one of the last standing Seven Wonders of the World: The Taj Mahal. I had of course heard many stories and seen many photos but nothing compared to seeing the real thing with my own two eyes. Absolutely beautiful.</dd>
+                <dt>El Yunque, Puerto Rico</dt>
+                <dd>- My trip to Puerto Rico was quite unforgettable. One of the highlights of my trip was hiking through the massive tropical rainforest El Yunque. It took hours and all the while I was able to take in its amazing sights. When I finally reached the top, the view made all that effort worthwhile.</dd>
+                <dt>Charlotte, USA</dt>
+                <dd>- I was in Charlotte, NC for work all summer but I did make time to take in the sights of the city. Being from the Midwest I did not have much knowledge about the American South but I learned quite a bit. The food was absolutely amazing and I really felt that "southern hospitality" for the first time in my life.</dd>
+            </dl>
+        </section>
+        <section class="images">
+            <img src="taj.jpg" alt="A photo encapsulating the entire structure of the Taj Mahal" />
+            <img src="clt.jpg" alt="A downtown street, Charlotte, NC" />
+            <img src="yunque.jpg" alt="A high altitude photo of a large portion of the El Yunque rainforest" />
+        </section>
     </main>
 </body>
 </html>
