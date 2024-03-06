@@ -44,6 +44,12 @@ main {
     border-radius: 5px; /* Optional: Adds rounded corners to the main content */
 }
 
+.pics {
+    width: auto; /* maintain the aspect ratio */
+    max-width: 200px; /* maximum width */
+    height: auto; /* adjust height automatically */
+}
+
 footer {
     background-color: #333;
     color: white;
