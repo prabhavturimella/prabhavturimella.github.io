@@ -1,26 +1,22 @@
 /* stylesheet.css */
 
 body {
-    font-family: 'Times New Roman', serif; /* Serif font as a fallback */
-    background-color: #f4f4f4; /* Light grey background for the whole page */
+    font-family: 'Times New Roman', serif; 
+    background-color: #f4f4f4; 
     margin: 20px;
     padding: 20px;
 }
 
 header h1 {
-    font-family: 'Georgia', serif; /* Changes the font of h1 to a serif font other than the browser default */
+    font-family: 'Georgia', serif; 
+    text-align: center;
 }
 
 nav {
-    background-color: #333; /* Dark background for the navigation */
+    background-color: #333; 
     color: white;
     padding: 10px 0;
-}
-
-nav ul {
-    padding: 0;
-    list-style-type: none;
-    margin: 0; /* Removes default margin */
+    text-align: center;
 }
 
 nav ul li {
@@ -34,26 +30,15 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
 
 main {
-    background-color: white; /* White background for the content */
+    background-color: white; 
     padding: 20px;
-    border-radius: 5px; /* Optional: Adds rounded corners to the main content */
+    text-align: center;
 }
 
 .pics {
-    width: auto; /* maintain the aspect ratio */
-    max-width: 200px; /* maximum width */
-    height: auto; /* adjust height automatically */
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px; /* Adds space above the footer */
+    width: auto; 
+    max-width: 200px; 
+    height: auto;
 }
